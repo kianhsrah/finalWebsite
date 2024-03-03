@@ -1,0 +1,27 @@
+{
+  "id": "resume_slice",
+  "type": "SharedSlice",
+  "name": "ResumeSlice",
+  "description": "ResumeSlice",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "resume_pdf": {
+          "type": "Link",
+          "config": {
+            "label": "Resume PDF",
+            "placeholder": "",
+            "select": "media"
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}
