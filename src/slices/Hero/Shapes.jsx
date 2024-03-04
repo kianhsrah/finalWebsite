@@ -25,7 +25,7 @@ export function Shapes() {
             blur={1}
             far={9}
           />
-          <Environment preset="studio" />
+          <Environment preset="sunset" />
         </Suspense>
       </Canvas>
     </div>
@@ -37,7 +37,7 @@ function Geometries() {
     {
       position: [0, 0, 0],
       r: 0.3,
-      geometry: new THREE.IcosahedronGeometry(3), // Gem
+      geometry: new THREE.TorusKnotGeometry(2, 0.4, 100, 8)
     },
     {
       position: [1, -0.75, 4],
@@ -52,7 +52,8 @@ function Geometries() {
     {
       position: [-0.8, -0.75, 5],
       r: 0.5,
-      geometry: new THREE.TorusGeometry(0.6, 0.25, 16, 32), // Donut
+       // Donut
+      geometry: new THREE.IcosahedronGeometry(1)
     },
     {
       position: [1.6, 1.6, -4],
