@@ -1722,10 +1722,6 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(248 250 252 / var(--tw-bg-opacity));
 }
-.bg-slate-800 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(30 41 59 / var(--tw-bg-opacity));
-}
 .bg-slate-900 {
   --tw-bg-opacity: 1;
   background-color: rgb(15 23 42 / var(--tw-bg-opacity));
@@ -1736,6 +1732,10 @@ video {
 .bg-yellow-300 {
   --tw-bg-opacity: 1;
   background-color: rgb(253 224 71 / var(--tw-bg-opacity));
+}
+.bg-zinc-900 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(24 24 27 / var(--tw-bg-opacity));
 }
 .bg-\[url\(\'\/noisetexture\.jpg\'\)\] {
   background-image: url('/noisetexture.jpg');
@@ -1999,7 +1999,7 @@ video {
 .background-gradient {
   background: radial-gradient(
     circle at top center,
-    hsla(222, 80%, 60%, 0.5) 0%,
+    hsla(222, 23%, 46%, 0.5) 0%,
     hsla(222, 0%, 0%, 0) 50%,
     hsla(222, 0%, 0%, 0) 100%
   );
